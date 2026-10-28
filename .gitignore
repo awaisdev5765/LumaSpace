@@ -1,0 +1,22 @@
+.DS_Store
+
+# Xcode / SwiftPM
+DerivedData/
+build/
+.build/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+Package.resolved
+
+# Local tools and machine-specific settings
+.claude/
+*.local.json
+
+# Secrets and signing material
+.env*
+GoogleService-Info.plist
+Secrets.plist
+*.p12
+*.mobileprovision
+

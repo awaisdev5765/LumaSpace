@@ -1,0 +1,153 @@
+{
+  "identifier" : "com.lumaspace.app",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "99.99",
+      "familyShareable" : false,
+      "groupID" : "",
+      "internalID" : "com.lumaspace.lifetime",
+      "introductoryOffer" : null,
+      "localizations" : [
+        {
+          "description" : "Lifetime access to all Pro features. One-time purchase.",
+          "displayName" : "LumaSpace Lifetime",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.lumaspace.lifetime",
+      "referenceName" : "Lifetime",
+      "subscriptionGroupID" : "",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingGraceEnabled" : false,
+    "_billingRetryEnabled" : true,
+    "_customerSupportEmail" : "support@lumaspace.app",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
+    "_storeKitErrors" : []
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "20000001",
+      "localizations" : [],
+      "name" : "Pro",
+      "subscriptions" : [
+        {
+          "adHocOfferCodesEnabled" : false,
+          "displayPrice" : "4.99",
+          "familyShareable" : false,
+          "groupID" : "20000001",
+          "internalID" : "com.lumaspace.pro.monthly",
+          "introductoryOffer" : {
+            "duration" : 1,
+            "durationUnit" : "WEEK",
+            "offerIdentifier" : "intro",
+            "offerMode" : "FREE_TRIAL",
+            "offerType" : "INTRODUCTORY_OFFER"
+          },
+          "localizations" : [
+            {
+              "description" : "Unlimited room scans, AI redesigns, AR placement, and HD exports.",
+              "displayName" : "LumaSpace Pro Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.lumaspace.pro.monthly",
+          "referenceName" : "Pro Monthly",
+          "subscriptionDuration" : "P1M",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOfferCodesEnabled" : false,
+          "displayPrice" : "29.99",
+          "familyShareable" : true,
+          "groupID" : "20000001",
+          "internalID" : "com.lumaspace.pro.annual",
+          "introductoryOffer" : {
+            "duration" : 1,
+            "durationUnit" : "WEEK",
+            "offerIdentifier" : "intro",
+            "offerMode" : "FREE_TRIAL",
+            "offerType" : "INTRODUCTORY_OFFER"
+          },
+          "localizations" : [
+            {
+              "description" : "Unlimited room scans, AI redesigns, AR placement, and HD exports. Save 48% vs monthly.",
+              "displayName" : "LumaSpace Pro Annual",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.lumaspace.pro.annual",
+          "referenceName" : "Pro Annual",
+          "subscriptionDuration" : "P1Y",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    },
+    {
+      "id" : "20000002",
+      "localizations" : [],
+      "name" : "Premium",
+      "subscriptions" : [
+        {
+          "adHocOfferCodesEnabled" : false,
+          "displayPrice" : "9.99",
+          "familyShareable" : false,
+          "groupID" : "20000002",
+          "internalID" : "com.lumaspace.premium.monthly",
+          "introductoryOffer" : {
+            "duration" : 1,
+            "durationUnit" : "WEEK",
+            "offerIdentifier" : "intro",
+            "offerMode" : "FREE_TRIAL",
+            "offerType" : "INTRODUCTORY_OFFER"
+          },
+          "localizations" : [
+            {
+              "description" : "Everything in Pro plus whole-home scanning, budget planner, and AI renovation planner.",
+              "displayName" : "LumaSpace Premium Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.lumaspace.premium.monthly",
+          "referenceName" : "Premium Monthly",
+          "subscriptionDuration" : "P1M",
+          "type" : "RecurringSubscription"
+        },
+        {
+          "adHocOfferCodesEnabled" : false,
+          "displayPrice" : "49.99",
+          "familyShareable" : true,
+          "groupID" : "20000002",
+          "internalID" : "com.lumaspace.premium.annual",
+          "introductoryOffer" : {
+            "duration" : 1,
+            "durationUnit" : "WEEK",
+            "offerIdentifier" : "intro",
+            "offerMode" : "FREE_TRIAL",
+            "offerType" : "INTRODUCTORY_OFFER"
+          },
+          "localizations" : [
+            {
+              "description" : "Everything in Pro plus whole-home scanning, budget planner, and AI renovation planner. Save 44% vs monthly.",
+              "displayName" : "LumaSpace Premium Annual",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.lumaspace.premium.annual",
+          "referenceName" : "Premium Annual",
+          "subscriptionDuration" : "P1Y",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
